@@ -26,10 +26,10 @@ with the job number 79253 in the subject line.
 
 This repository contains a python program called data_gen.  Execute it and it
 will produce a file called "data.txt" with two columns.  The first column is a
-time stamp in GPS seconds. The second column is a quanity called SNR.
-Calculate the mean, median and max of SNR over 1 second data blocks, 10 second
-data blocks and 100 second data blocks for the entire dataset.  Create a figure
-(or multiple figures) to visualize this data.  Create a webpage to present your
-findings.
+time stamp in seconds.  The second column is a quanity called SNR.  The data is
+1000 seconds in duration and evenly sampled at 1000 samples per second.  It is
+time ordered.  Calculate the max SNR over 1 second data blocks recording both
+the timestamp and SNR at each max value for each second.  Create a figure to
+visualize this data.  Create a webpage to present your findings.
 
 
