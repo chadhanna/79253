@@ -2,7 +2,7 @@
 
 from scipy import stats
 import numpy
-sr = 1024
+sr = 1000
 duration = 1000
 t = numpy.arange(sr * duration) * 1. / sr + 1010000000
 snr = stats.fatiguelife.rvs(1, size = sr * duration) + 3
